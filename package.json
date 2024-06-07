@@ -1,4 +1,8 @@
 {
+  "name": "my-ecommerce-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "start": "concurrently \"npm run dev\" \"npm run json\"",
     "dev": "vite --host",
@@ -37,5 +41,8 @@
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
     "vite": "^4.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
